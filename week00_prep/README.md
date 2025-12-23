@@ -1,6 +1,5 @@
 # Week 0: Pre-course preparation
 
-Every student is expected to complete pre-course preparation before Week 1 of class.
 We begin Week 1 with peer-to-peer presentations of `week00_prep_answers.py` (see end of page). So
 be sure to have it ready in class.
 
@@ -8,7 +7,7 @@ If you are new to programming or Python, your preparation will involve **~7 extr
 I.e., the prep time for Week 1 is significantly higher for people who are newer to Python.
 Please plan your time accordingly. This skewed preparation time for newer programmers will reduce after the first few weeks.  
 
-You are ready for Week 1 of PiWE when you have:  
+### You are ready for Week 1 of PiWE when you have:  
 1.	Installed Python and VS code.  
 1.	Installed scientific Python packages.  
 1.	Installed git.  
@@ -89,18 +88,18 @@ A "repository" is often called "repo", 'cause life is short.
 Use ChatGPT as little as possible for these exercises.
 This is basic knowledge that you should be able to remember without assistance.
 
-#### If you are very familiar with Python and Jupyter notebooks in VS Code:
+### If you are very familiar with Python and Jupyter notebooks in VS Code:
 
 Complete the module-end exercises in the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
 
-#### If you have some programming knowledge but are new to Python:
+### If you have some programming knowledge but are new to Python:
 
 See the instructions on the "Basic Python Prep Course" on Learn.
 You can complete the exercises in the prep course without watching all the videos.
 
 Afterwards, if you want more of a refresher, optionally complete the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
 
-#### If you are relatively new to programming in general:
+### If you are relatively new to programming in general:
 
 See the instructions on the "Basic Python Prep Course" on Learn.
 
