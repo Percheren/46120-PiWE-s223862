@@ -3,7 +3,8 @@
 We begin Week 1 with peer-to-peer presentations of `week00_prep_answers.py` (see end of page). So
 be sure to have it ready in class.
 
-If you are new to programming or Python, your preparation will involve **~7 extra hours of training** in basic Python and VS Code. 
+### If you are new to programming or Python:
+Your preparation will involve **~8 extra hours of training** in basic Python and VS Code. 
 I.e., the prep time for Week 1 is significantly higher for people who are newer to Python.
 Please plan your time accordingly. This skewed preparation time for newer programmers will reduce after the first few weeks.  
 
@@ -20,16 +21,16 @@ Please plan your time accordingly. This skewed preparation time for newer progra
 ## Working in pairs
 
 Everything but the last step need to be completed on your individual laptop/computer. For the final exercise,
-you are welcome--nay, encouraged!--to work in pairs. Engineering is collaborative problem solving. When
+you are welcome -- nay, encouraged! -- to work in pairs. Engineering is collaborative problem solving. When
 you have finished `week00_prep_answers.py`, add a comment to the top with your names and make sure you
 both have a copy locally before coming to class in Week 1.
 
 ## 1. Install Slack and join the class Slack chat
 
 We use the Slack messaging platform for communication and answering questions.
-You can install Slack on your laptop and on your phone.
+You can [install Slack](https://slack.com/download) on your laptop and on your phone.
 
-Join the class Slackchat by navigating to the course Learn page and clicking the link in the upper right corner.
+Join the class Slackchat by navigating to the course Learn page and clicking the invite link in the upper right corner.
 
 ## 2. Install/verify VS Code and Python
 
@@ -80,7 +81,7 @@ Go to [GitHub.com](https://github.com/) and create an account. Noice.
 A "repository" is often called "repo", 'cause life is short.  
 
 
-1. Open this repository on GitHub: [https://github.com/DTUWind-46120-2026/46120-PiWE](https://github.com/DTUWind-46120-2026/46120-PiWE).  
+1. Open this repository's webpage on GitHub.com: [https://github.com/DTUWind-46120-2026/46120-PiWE](https://github.com/DTUWind-46120-2026/46120-PiWE).  
 1. In the upper-right corner, click the green "Code" button in the upper-right corner, and copy the HTTPS link.  
 1. Create a folder on your computer where you want your PiWE materials to be saved.  
 1. Open a git bash terminal in this folder. On Windows:  
@@ -89,31 +90,25 @@ A "repository" is often called "repo", 'cause life is short.
    c. Select "Open Git Bash here".  
 1. In the git terminal, enter the following command:  
    ```git clone <HTTPS link you copied>```
-1. This should create a subfolder called `46120-PiWE`, which should contain the repo material.  
+1. This should create a subfolder called `46120-PiWE`, which contains the repo material. The files for the Week 0 prep are in the subfolder `week00_prep/`.  
 
 ## 7. Complete the basic Python refresher/prep course
 
-Use ChatGPT as little as possible for these exercises.
-This is basic knowledge that you should be able to remember without assistance.
+Note: The `welcome_to_python.ipynb` Jupyter notebook is in the `week00_prep/` subfolder of the folder you cloned in the previous step.
 
-**If you need help, post your questions in the course Slack chat.**
+* If you are comfortable with Python and Jupyter notebooks in VS Code:
+   * Use VS Code to complete the module-end exercises in the `welcome_to_python.ipynb` Jupyter notebook.
+* If you have some programming knowledge but are new to Python or VS Code:
+   * See the instructions on the ["Basic Python Prep Course" on Learn](https://learn.inside.dtu.dk/d2l/le/lessons/294813/units/1114167).
+   * You can complete the exercises in the prep course without watching all the videos.
+   * Afterwards, if you want more practice to cement your core programming skills, optionally complete the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
+* If you are relatively new to programming in general or want to practice the basics:
+   * See the instructions on the ["Basic Python Prep Course" on Learn](https://learn.inside.dtu.dk/d2l/le/lessons/294813/units/1114167).
+   * Afterwards, if you want more practice to cement your core programming skills, optionally complete the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
 
-### If you are very familiar with Python and Jupyter notebooks in VS Code:
-
-Complete the module-end exercises in the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
-
-### If you have some programming knowledge but are new to Python:
-
-See the instructions on the "Basic Python Prep Course" on Learn.
-You can complete the exercises in the prep course without watching all the videos.
-
-Afterwards, if you want more of a refresher, optionally complete the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
-
-### If you are relatively new to programming in general:
-
-See the instructions on the "Basic Python Prep Course" on Learn.
-
-Afterwards, if you want more practice, optionally complete the `welcome_to_python.ipynb` Jupyter notebook in VS Code.
+Use GenAI (ChatGPT, Copilot, etc.) as little as possible.
+These exercises practice basic knowledge that you need to be able to remember without assistance.
+**If you have questions, please post them in the course Slack chat. We want to help you learn! :)**
 
 
 ## 8. Finish week00_prep_answers.py
@@ -122,7 +117,7 @@ Create a file called `week00_prep_answers.py` in your `46120-PiWE/week00_prep/` 
 In this file, write code that completes Required Exercises 1 through 5 on [this page](https://python-at-risoe.pages.windenergy.dtu.dk/codecamp/preparation.html#Required-exercises). 
 
 Want to practice EVEN MORE? 😍
- * Complete the "Optional Python exercises" on the same page as Exercises 1 through 5. 
- * Go through the tutorials in `tutorials_scientific_python`
+ * Complete the "Optional Python exercises" on the same page as Exercises 1 through 5 on [this page](https://python-at-risoe.pages.windenergy.dtu.dk/codecamp/preparation.html#Required-exercises). 
+ * Go through the tutorials in `tutorials_scientific_python/` subfolder in the repo.
 
 Once you're finished `week00_prep_answers.py`, you're freeeeeeeeee!
