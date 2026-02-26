@@ -31,13 +31,14 @@ if __name__ == '__main__':
 
     # plot the parabola and initial guess as an x
     fig, ax = plot_quadratic(A, B, C)
-    ax.plot(X0, 0, 'kx')  # add the initial guess to the plot as a black "x"
+    ax.plot(X0, 0, 'kx', label = "guess")  # add the initial guess to the plot as a black "x"
 
     # call fsolve to find the closest root, add to plot as red circle
     x_solve = fsolve(func=eval_quadratic, x0=X0, args=(A, B, C))  # call fsolve using the necessary arguments and keyword arguments
     y_solve = eval_quadratic(x_solve, A, B, C)  # get value of quadratic at supposed root
-    ax.plot(x_solve, y_solve, 'ro', mfc='none')  # add the found root to the plot as a red circle with a see-through center
+    ax.plot(x_solve, y_solve, 'ro', mfc='none', label = "root of function")  # add the found root to the plot as a red circle with a see-through center
     
-    # prettify and plot 
+    # prettify and plot
     fig.tight_layout()
+    ax.legend()
     plt.show()
