@@ -68,7 +68,7 @@ Read through this page and make a plan of attack for who does which parts.
 
 Understand the problem formulation
 
-1. (Re)read the [Definition](hhttps://python-at-risoe.pages.windenergy.dtu.dk/codecamp/turbie/1-definition.html) page in Week 3 folder.
+1. (Re)read the [Definition](https://python-at-risoe.pages.windenergy.dtu.dk/codecamp/turbie/1-definition.html) page in Week 3 folder.
 1. Read the Homogeneous response PDF in this folder, ignoring exercise.
 1. Read the Forced response PDF in this folder, ignoring exercise.
 1. Understand the state-space equation of the dynamic system, and note that the mass, damping and stiffness matrices (`M`, `C`, and `K`) are given by the function `get_turbie_system_matrices()` in Week 2 homework.
